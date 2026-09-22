@@ -22,38 +22,18 @@ EdgeMap edgemap_from(Image* p_image) {
             u32 pixel_idx = y * image.width + x;
             u32 right_idx = y * image.width + (x + 1);
             u32 down_idx  = (y + 1) * image.width + x;
-            u32 dx, dy;
-            if (image.kind == IMGK_GRAY) {
-                dx = pixel_diff(
-                    image.buffer[2 * pixel_idx + 0],
-                    image.buffer[2 * pixel_idx + 1],
-                    image.buffer[2 * right_idx + 0],
-                    image.buffer[2 * right_idx + 1]
-                );
-                dy = pixel_diff(
-                    image.buffer[2 * pixel_idx + 0],
-                    image.buffer[2 * pixel_idx + 1],
-                    image.buffer[2 * down_idx  + 0],
-                    image.buffer[2 * down_idx  + 1]
-                );
-            }
-            else if (image.kind == IMGK_GRAY_REDUCED) {
-                dx = pixel_diff(
-                    image.buffer[pixel_idx] & 0xF0,
-                    image.buffer[pixel_idx] << 4  ,
-                    image.buffer[right_idx] & 0xF0,
-                    image.buffer[right_idx] << 4  
-                );
-                dy = pixel_diff(
-                    image.buffer[pixel_idx] & 0xF0,
-                    image.buffer[pixel_idx] << 4  ,
-                    image.buffer[down_idx ] & 0xF0,
-                    image.buffer[down_idx ] << 4
-                );
-            }
-            else {
-                panic("Unknown enum variant!");
-            }
+            u32 dx = pixel_diff(
+                image.buffer[2 * pixel_idx + 0],
+                image.buffer[2 * pixel_idx + 1],
+                image.buffer[2 * right_idx + 0],
+                image.buffer[2 * right_idx + 1]
+            );
+            u32 dy = pixel_diff(
+                image.buffer[2 * pixel_idx + 0],
+                image.buffer[2 * pixel_idx + 1],
+                image.buffer[2 * down_idx  + 0],
+                image.buffer[2 * down_idx  + 1]
+            );
             res.buffer[pixel_idx] = (dx + dy) > 255 ? 255 : dx + dy;
         }
     }

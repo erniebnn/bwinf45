@@ -5,8 +5,6 @@
 typedef enum _ImageKind {
     IMGK_RGBA,
     IMGK_GRAY,
-    IMGK_RGBA_REDUCED,
-    IMGK_GRAY_REDUCED,
 } ImageKind;
 
 typedef struct _Image {
@@ -24,8 +22,4 @@ Image image_copy(Image* p_image);
 
 Image image_grayscale(Image* p_image);
 
-Image image_reduce(Image* p_image);
-Image image_extend(Image* p_image);
-
-bool image_is_reduced(Image* p_image);
 bool image_is_grayscale(Image* p_image);
