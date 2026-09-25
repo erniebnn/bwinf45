@@ -190,8 +190,8 @@ static double compare_flags(ComparisionInstance* p_inst0, ComparisionInstance* p
     double edge_score = edgemap_compare(&p_inst0->edgemap, &p_inst1->edgemap);
     double pixel_score = image_pixel_compare(&p_inst0->image, &p_inst1->image);
     double hist_weight = 0.35;
-    double edge_weight = 0.25;
-    double pixel_weight = 0.40;
+    double edge_weight = 0.3;
+    double pixel_weight = 0.35;
     double total_score = hist_weight * hist_score + edge_weight * edge_score + pixel_weight * pixel_score;
     if (r_hist_score) { *r_hist_score = hist_score; }
     if (r_edge_score) { *r_edge_score = edge_score; }
