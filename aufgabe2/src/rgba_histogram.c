@@ -5,12 +5,12 @@
 #include <stdio.h>
 
 RGBAHistogram histogram_from(Image* p_image, u32 p_size) {
-    assert(!image_is_grayscale(p_image), "Histogram can only be created from non-grayscale image!");
+    iassert(!image_is_grayscale(p_image), "Histogram can only be created from non-grayscale image!");
     RGBAHistogram res;
     res.size = p_size;
     res.mass = 0;
     res.buffer = (u64*) calloc(p_size * p_size * p_size, sizeof(*res.buffer));
-    assert(res.buffer != NULL, "Failed to allocate memory!");
+    iassert(res.buffer != NULL, "Failed to allocate memory!");
     for (u32 y = 0; y < p_image->height; y++) {
         for (u32 x = 0; x < p_image->width; x++) {
             u32 pixel_idx = y * p_image->width + x;
@@ -30,7 +30,8 @@ void histogram_free(RGBAHistogram* p_hist) {
 }
 
 double histogram_compare(RGBAHistogram* p_hist0, RGBAHistogram* p_hist1) {
-    assert(p_hist0->size == p_hist1->size, "Compared histograms must have equal size!");
+    if (p_hist0->size != p_hist1->size) { printf("%d %d\n", p_hist0->size, p_hist1->size); }
+    iassert(p_hist0->size == p_hist1->size, "Compared histograms must have equal size!");
     u64 overlap = 0;
     for (u32 i = 0; i < p_hist0->size * p_hist0->size * p_hist0->size; i++) {
         u64 a = p_hist0->buffer[i] * p_hist1->mass;

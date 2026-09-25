@@ -28,7 +28,7 @@ Image image_create(u32 p_width, u32 p_height, ImageKind p_kind) {
     res.width = p_width;
     res.height = p_height;
     res.buffer = (u8*) malloc(image_buffer_size(&res));
-    assert(res.buffer != NULL, "Failed to allocate memory!");
+    iassert(res.buffer != NULL, "Failed to allocate memory!");
     return res;
 }
 
@@ -36,7 +36,7 @@ Image image_load(const char* p_path) {
     Image res;
     u32 channels;
     res.buffer = stbi_load(p_path, (i32*) &res.width, (i32*) &res.height, (i32*) &channels, 0);
-    assert(res.buffer != NULL, "Could not load image file '%s': %s", p_path, stbi_failure_reason());
+    iassert(res.buffer != NULL, "Could not load image file '%s': %s", p_path, stbi_failure_reason());
     if (channels == 2) {
         res.kind = IMGK_GRAY;
     }
@@ -59,7 +59,7 @@ void image_save(Image* p_image, const char* p_path) {
         p_image->buffer,
         p_image->width * channels
     );
-    assert(res == 1, "Failed to write image '%s'", p_path);
+    iassert(res == 1, "Failed to write image '%s'", p_path);
 }
 
 void image_free(Image* p_flag) {
@@ -73,7 +73,7 @@ Image image_copy(Image* p_image) {
     res.width = p_image->width;
     res.height = p_image->height;
     res.buffer = (u8*) malloc(buffer_len);
-    assert(res.buffer != NULL, "Failed to allocate memory!");
+    iassert(res.buffer != NULL, "Failed to allocate memory!");
     memcpy(res.buffer, p_image->buffer, buffer_len);
     return res;
 }

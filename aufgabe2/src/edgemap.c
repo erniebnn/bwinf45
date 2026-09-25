@@ -16,7 +16,7 @@ EdgeMap edgemap_from(Image* p_image) {
     res.width = image.width;
     res.height = image.height;
     res.buffer = (u8*) calloc(res.width * res.height, sizeof(*res.buffer));
-    assert(res.buffer != NULL, "Failed to allocate memory!");
+    iassert(res.buffer != NULL, "Failed to allocate memory!");
     for (u32 y = 0; y < image.height - 1; y++) {
         for (u32 x = 0; x < image.width - 1; x++) {
             u32 pixel_idx = y * image.width + x;
@@ -64,7 +64,7 @@ void edgemap_threshold(EdgeMap* p_edgemap, u8 p_threshold) {
 }
 
 double edgemap_compare(EdgeMap* p_edgemap0, EdgeMap* p_edgemap1) {
-    assert(p_edgemap0->width == p_edgemap1->width && p_edgemap0->height == p_edgemap1->height, "Edgemap dimensions must match to compare!");
+    iassert(p_edgemap0->width == p_edgemap1->width && p_edgemap0->height == p_edgemap1->height, "Edgemap dimensions must match to compare!");
     u32 matching_ones = 0;
     u32 edgemap0_mass = 0, edgemap1_mass = 0;
     for (u32 y = 0; y < p_edgemap0->height; y++) {
@@ -91,5 +91,5 @@ void edgemap_dump(EdgeMap* p_edgemap, const char* p_path) {
         p_edgemap->buffer,
         0
     );
-    assert(res != 0, "Failed to write to file '%s'!", p_path);
+    iassert(res != 0, "Failed to write to file '%s'!", p_path);
 }
