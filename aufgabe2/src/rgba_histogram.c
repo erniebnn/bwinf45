@@ -11,13 +11,14 @@ RGBAHistogram histogram_from(Image* p_image, u32 p_size) {
     res.mass = 0;
     res.buffer = (u64*) calloc(p_size * p_size * p_size, sizeof(*res.buffer));
     iassert(res.buffer != NULL, "Failed to allocate memory!");
+    u32 downscale_factor = 256 / p_size;
     for (u32 y = 0; y < p_image->height; y++) {
         for (u32 x = 0; x < p_image->width; x++) {
             u32 pixel_idx = y * p_image->width + x;
-            u32 px_r = p_image->buffer[4 * pixel_idx + 0] / (256 / p_size);
-            u32 px_g = p_image->buffer[4 * pixel_idx + 1] / (256 / p_size);
-            u32 px_b = p_image->buffer[4 * pixel_idx + 2] / (256 / p_size);
-            u32 px_a = p_image->buffer[4 * pixel_idx + 3] / 16    ;
+            u32 px_r = p_image->buffer[4 * pixel_idx + 0] / downscale_factor;
+            u32 px_g = p_image->buffer[4 * pixel_idx + 1] / downscale_factor;
+            u32 px_b = p_image->buffer[4 * pixel_idx + 2] / downscale_factor;
+            u32 px_a = p_image->buffer[4 * pixel_idx + 3] / 16              ;
             res.buffer[px_b * (p_size * p_size) + px_g * p_size + px_r] += px_a;
             res.mass += px_a;
         }
