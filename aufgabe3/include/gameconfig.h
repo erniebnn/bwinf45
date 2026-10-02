@@ -4,6 +4,7 @@
 typedef struct _GameConfig {
     u32 rounds;
     u32* points;
+    u32* remaining_points;
     u32 target;
 } GameConfig;
 
