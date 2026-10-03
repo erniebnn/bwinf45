@@ -1,0 +1,508 @@
+Rounds: 9, Points: 20 20 20 20 1 2 2 2 2 , Target: 40
+Locally irrelevant round 2: W W X 
+Locally irrelevant round 3: L L L X 
+Locally irrelevant round 3: W W L X 
+Locally irrelevant round 3: W L W X 
+Locally irrelevant round 3: L W W X 
+Locally irrelevant round 3: W W W X 
+Locally irrelevant round 4: L L L L X 
+Locally irrelevant round 4: W L L L X 
+Locally irrelevant round 4: L W L L X 
+Locally irrelevant round 4: W W L L X 
+Locally irrelevant round 4: L L W L X 
+Locally irrelevant round 4: W L W L X 
+Locally irrelevant round 4: L W W L X 
+Locally irrelevant round 4: W W W L X 
+Locally irrelevant round 4: L L L W X 
+Locally irrelevant round 4: W L L W X 
+Locally irrelevant round 4: L W L W X 
+Locally irrelevant round 4: W W L W X 
+Locally irrelevant round 4: L L W W X 
+Locally irrelevant round 4: W L W W X 
+Locally irrelevant round 4: L W W W X 
+Locally irrelevant round 4: W W W W X 
+Globally irrelevant round 4: L L L L X 
+Locally irrelevant round 5: L L L L L X 
+Locally irrelevant round 5: W L L L L X 
+Locally irrelevant round 5: L W L L L X 
+Locally irrelevant round 5: W W L L L X 
+Locally irrelevant round 5: L L W L L X 
+Locally irrelevant round 5: W L W L L X 
+Locally irrelevant round 5: L W W L L X 
+Locally irrelevant round 5: W W W L L X 
+Locally irrelevant round 5: L L L W L X 
+Locally irrelevant round 5: W L L W L X 
+Locally irrelevant round 5: L W L W L X 
+Locally irrelevant round 5: W W L W L X 
+Locally irrelevant round 5: L L W W L X 
+Locally irrelevant round 5: W L W W L X 
+Locally irrelevant round 5: L W W W L X 
+Locally irrelevant round 5: W W W W L X 
+Locally irrelevant round 5: L L L L W X 
+Locally irrelevant round 5: W L L L W X 
+Locally irrelevant round 5: L W L L W X 
+Locally irrelevant round 5: W W L L W X 
+Locally irrelevant round 5: L L W L W X 
+Locally irrelevant round 5: W L W L W X 
+Locally irrelevant round 5: L W W L W X 
+Locally irrelevant round 5: W W W L W X 
+Locally irrelevant round 5: L L L W W X 
+Locally irrelevant round 5: W L L W W X 
+Locally irrelevant round 5: L W L W W X 
+Locally irrelevant round 5: W W L W W X 
+Locally irrelevant round 5: L L W W W X 
+Locally irrelevant round 5: W L W W W X 
+Locally irrelevant round 5: L W W W W X 
+Locally irrelevant round 5: W W W W W X 
+Globally irrelevant round 5: L L L L L X 
+Locally irrelevant round 6: L L L L L L X 
+Locally irrelevant round 6: W L L L L L X 
+Locally irrelevant round 6: L W L L L L X 
+Locally irrelevant round 6: W W L L L L X 
+Locally irrelevant round 6: L L W L L L X 
+Locally irrelevant round 6: W L W L L L X 
+Locally irrelevant round 6: L W W L L L X 
+Locally irrelevant round 6: W W W L L L X 
+Locally irrelevant round 6: L L L W L L X 
+Locally irrelevant round 6: W L L W L L X 
+Locally irrelevant round 6: L W L W L L X 
+Locally irrelevant round 6: W W L W L L X 
+Locally irrelevant round 6: L L W W L L X 
+Locally irrelevant round 6: W L W W L L X 
+Locally irrelevant round 6: L W W W L L X 
+Locally irrelevant round 6: W W W W L L X 
+Locally irrelevant round 6: L L L L W L X 
+Locally irrelevant round 6: W L L L W L X 
+Locally irrelevant round 6: L W L L W L X 
+Locally irrelevant round 6: W W L L W L X 
+Locally irrelevant round 6: L L W L W L X 
+Locally irrelevant round 6: W L W L W L X 
+Locally irrelevant round 6: L W W L W L X 
+Locally irrelevant round 6: W W W L W L X 
+Locally irrelevant round 6: L L L W W L X 
+Locally irrelevant round 6: W L L W W L X 
+Locally irrelevant round 6: L W L W W L X 
+Locally irrelevant round 6: W W L W W L X 
+Locally irrelevant round 6: L L W W W L X 
+Locally irrelevant round 6: W L W W W L X 
+Locally irrelevant round 6: L W W W W L X 
+Locally irrelevant round 6: W W W W W L X 
+Locally irrelevant round 6: L L L L L W X 
+Locally irrelevant round 6: W L L L L W X 
+Locally irrelevant round 6: L W L L L W X 
+Locally irrelevant round 6: W W L L L W X 
+Locally irrelevant round 6: L L W L L W X 
+Locally irrelevant round 6: W L W L L W X 
+Locally irrelevant round 6: L W W L L W X 
+Locally irrelevant round 6: W W W L L W X 
+Locally irrelevant round 6: L L L W L W X 
+Locally irrelevant round 6: W L L W L W X 
+Locally irrelevant round 6: L W L W L W X 
+Locally irrelevant round 6: W W L W L W X 
+Locally irrelevant round 6: L L W W L W X 
+Locally irrelevant round 6: W L W W L W X 
+Locally irrelevant round 6: L W W W L W X 
+Locally irrelevant round 6: W W W W L W X 
+Locally irrelevant round 6: L L L L W W X 
+Locally irrelevant round 6: W L L L W W X 
+Locally irrelevant round 6: L W L L W W X 
+Locally irrelevant round 6: W W L L W W X 
+Locally irrelevant round 6: L L W L W W X 
+Locally irrelevant round 6: W L W L W W X 
+Locally irrelevant round 6: L W W L W W X 
+Locally irrelevant round 6: W W W L W W X 
+Locally irrelevant round 6: L L L W W W X 
+Locally irrelevant round 6: W L L W W W X 
+Locally irrelevant round 6: L W L W W W X 
+Locally irrelevant round 6: W W L W W W X 
+Locally irrelevant round 6: L L W W W W X 
+Locally irrelevant round 6: W L W W W W X 
+Locally irrelevant round 6: L W W W W W X 
+Locally irrelevant round 6: W W W W W W X 
+Globally irrelevant round 6: L L L L L L X 
+Locally irrelevant round 7: L L L L L L L X 
+Locally irrelevant round 7: W L L L L L L X 
+Locally irrelevant round 7: L W L L L L L X 
+Locally irrelevant round 7: W W L L L L L X 
+Locally irrelevant round 7: L L W L L L L X 
+Locally irrelevant round 7: W L W L L L L X 
+Locally irrelevant round 7: L W W L L L L X 
+Locally irrelevant round 7: W W W L L L L X 
+Locally irrelevant round 7: L L L W L L L X 
+Locally irrelevant round 7: W L L W L L L X 
+Locally irrelevant round 7: L W L W L L L X 
+Locally irrelevant round 7: W W L W L L L X 
+Locally irrelevant round 7: L L W W L L L X 
+Locally irrelevant round 7: W L W W L L L X 
+Locally irrelevant round 7: L W W W L L L X 
+Locally irrelevant round 7: W W W W L L L X 
+Locally irrelevant round 7: L L L L W L L X 
+Locally irrelevant round 7: W L L L W L L X 
+Locally irrelevant round 7: L W L L W L L X 
+Locally irrelevant round 7: W W L L W L L X 
+Locally irrelevant round 7: L L W L W L L X 
+Locally irrelevant round 7: W L W L W L L X 
+Locally irrelevant round 7: L W W L W L L X 
+Locally irrelevant round 7: W W W L W L L X 
+Locally irrelevant round 7: L L L W W L L X 
+Locally irrelevant round 7: W L L W W L L X 
+Locally irrelevant round 7: L W L W W L L X 
+Locally irrelevant round 7: W W L W W L L X 
+Locally irrelevant round 7: L L W W W L L X 
+Locally irrelevant round 7: W L W W W L L X 
+Locally irrelevant round 7: L W W W W L L X 
+Locally irrelevant round 7: W W W W W L L X 
+Locally irrelevant round 7: L L L L L W L X 
+Locally irrelevant round 7: W L L L L W L X 
+Locally irrelevant round 7: L W L L L W L X 
+Locally irrelevant round 7: W W L L L W L X 
+Locally irrelevant round 7: L L W L L W L X 
+Locally irrelevant round 7: W L W L L W L X 
+Locally irrelevant round 7: L W W L L W L X 
+Locally irrelevant round 7: W W W L L W L X 
+Locally irrelevant round 7: L L L W L W L X 
+Locally irrelevant round 7: W L L W L W L X 
+Locally irrelevant round 7: L W L W L W L X 
+Locally irrelevant round 7: W W L W L W L X 
+Locally irrelevant round 7: L L W W L W L X 
+Locally irrelevant round 7: W L W W L W L X 
+Locally irrelevant round 7: L W W W L W L X 
+Locally irrelevant round 7: W W W W L W L X 
+Locally irrelevant round 7: L L L L W W L X 
+Locally irrelevant round 7: W L L L W W L X 
+Locally irrelevant round 7: L W L L W W L X 
+Locally irrelevant round 7: W W L L W W L X 
+Locally irrelevant round 7: L L W L W W L X 
+Locally irrelevant round 7: W L W L W W L X 
+Locally irrelevant round 7: L W W L W W L X 
+Locally irrelevant round 7: W W W L W W L X 
+Locally irrelevant round 7: L L L W W W L X 
+Locally irrelevant round 7: W L L W W W L X 
+Locally irrelevant round 7: L W L W W W L X 
+Locally irrelevant round 7: W W L W W W L X 
+Locally irrelevant round 7: L L W W W W L X 
+Locally irrelevant round 7: W L W W W W L X 
+Locally irrelevant round 7: L W W W W W L X 
+Locally irrelevant round 7: W W W W W W L X 
+Locally irrelevant round 7: L L L L L L W X 
+Locally irrelevant round 7: W L L L L L W X 
+Locally irrelevant round 7: L W L L L L W X 
+Locally irrelevant round 7: W W L L L L W X 
+Locally irrelevant round 7: L L W L L L W X 
+Locally irrelevant round 7: W L W L L L W X 
+Locally irrelevant round 7: L W W L L L W X 
+Locally irrelevant round 7: W W W L L L W X 
+Locally irrelevant round 7: L L L W L L W X 
+Locally irrelevant round 7: W L L W L L W X 
+Locally irrelevant round 7: L W L W L L W X 
+Locally irrelevant round 7: W W L W L L W X 
+Locally irrelevant round 7: L L W W L L W X 
+Locally irrelevant round 7: W L W W L L W X 
+Locally irrelevant round 7: L W W W L L W X 
+Locally irrelevant round 7: W W W W L L W X 
+Locally irrelevant round 7: L L L L W L W X 
+Locally irrelevant round 7: W L L L W L W X 
+Locally irrelevant round 7: L W L L W L W X 
+Locally irrelevant round 7: W W L L W L W X 
+Locally irrelevant round 7: L L W L W L W X 
+Locally irrelevant round 7: W L W L W L W X 
+Locally irrelevant round 7: L W W L W L W X 
+Locally irrelevant round 7: W W W L W L W X 
+Locally irrelevant round 7: L L L W W L W X 
+Locally irrelevant round 7: W L L W W L W X 
+Locally irrelevant round 7: L W L W W L W X 
+Locally irrelevant round 7: W W L W W L W X 
+Locally irrelevant round 7: L L W W W L W X 
+Locally irrelevant round 7: W L W W W L W X 
+Locally irrelevant round 7: L W W W W L W X 
+Locally irrelevant round 7: W W W W W L W X 
+Locally irrelevant round 7: L L L L L W W X 
+Locally irrelevant round 7: W L L L L W W X 
+Locally irrelevant round 7: L W L L L W W X 
+Locally irrelevant round 7: W W L L L W W X 
+Locally irrelevant round 7: L L W L L W W X 
+Locally irrelevant round 7: W L W L L W W X 
+Locally irrelevant round 7: L W W L L W W X 
+Locally irrelevant round 7: W W W L L W W X 
+Locally irrelevant round 7: L L L W L W W X 
+Locally irrelevant round 7: W L L W L W W X 
+Locally irrelevant round 7: L W L W L W W X 
+Locally irrelevant round 7: W W L W L W W X 
+Locally irrelevant round 7: L L W W L W W X 
+Locally irrelevant round 7: W L W W L W W X 
+Locally irrelevant round 7: L W W W L W W X 
+Locally irrelevant round 7: W W W W L W W X 
+Locally irrelevant round 7: L L L L W W W X 
+Locally irrelevant round 7: W L L L W W W X 
+Locally irrelevant round 7: L W L L W W W X 
+Locally irrelevant round 7: W W L L W W W X 
+Locally irrelevant round 7: L L W L W W W X 
+Locally irrelevant round 7: W L W L W W W X 
+Locally irrelevant round 7: L W W L W W W X 
+Locally irrelevant round 7: W W W L W W W X 
+Locally irrelevant round 7: L L L W W W W X 
+Locally irrelevant round 7: W L L W W W W X 
+Locally irrelevant round 7: L W L W W W W X 
+Locally irrelevant round 7: W W L W W W W X 
+Locally irrelevant round 7: L L W W W W W X 
+Locally irrelevant round 7: W L W W W W W X 
+Locally irrelevant round 7: L W W W W W W X 
+Locally irrelevant round 7: W W W W W W W X 
+Globally irrelevant round 7: L L L L L L L X 
+Locally irrelevant round 8: L L L L L L L L X 
+Locally irrelevant round 8: W L L L L L L L X 
+Locally irrelevant round 8: L W L L L L L L X 
+Locally irrelevant round 8: W W L L L L L L X 
+Locally irrelevant round 8: L L W L L L L L X 
+Locally irrelevant round 8: W L W L L L L L X 
+Locally irrelevant round 8: L W W L L L L L X 
+Locally irrelevant round 8: W W W L L L L L X 
+Locally irrelevant round 8: L L L W L L L L X 
+Locally irrelevant round 8: W L L W L L L L X 
+Locally irrelevant round 8: L W L W L L L L X 
+Locally irrelevant round 8: W W L W L L L L X 
+Locally irrelevant round 8: L L W W L L L L X 
+Locally irrelevant round 8: W L W W L L L L X 
+Locally irrelevant round 8: L W W W L L L L X 
+Locally irrelevant round 8: W W W W L L L L X 
+Locally irrelevant round 8: L L L L W L L L X 
+Locally irrelevant round 8: W L L L W L L L X 
+Locally irrelevant round 8: L W L L W L L L X 
+Locally irrelevant round 8: W W L L W L L L X 
+Locally irrelevant round 8: L L W L W L L L X 
+Locally irrelevant round 8: W L W L W L L L X 
+Locally irrelevant round 8: L W W L W L L L X 
+Locally irrelevant round 8: W W W L W L L L X 
+Locally irrelevant round 8: L L L W W L L L X 
+Locally irrelevant round 8: W L L W W L L L X 
+Locally irrelevant round 8: L W L W W L L L X 
+Locally irrelevant round 8: W W L W W L L L X 
+Locally irrelevant round 8: L L W W W L L L X 
+Locally irrelevant round 8: W L W W W L L L X 
+Locally irrelevant round 8: L W W W W L L L X 
+Locally irrelevant round 8: W W W W W L L L X 
+Locally irrelevant round 8: L L L L L W L L X 
+Locally irrelevant round 8: W L L L L W L L X 
+Locally irrelevant round 8: L W L L L W L L X 
+Locally irrelevant round 8: W W L L L W L L X 
+Locally irrelevant round 8: L L W L L W L L X 
+Locally irrelevant round 8: W L W L L W L L X 
+Locally irrelevant round 8: L W W L L W L L X 
+Locally irrelevant round 8: W W W L L W L L X 
+Locally irrelevant round 8: L L L W L W L L X 
+Locally irrelevant round 8: W L L W L W L L X 
+Locally irrelevant round 8: L W L W L W L L X 
+Locally irrelevant round 8: W W L W L W L L X 
+Locally irrelevant round 8: L L W W L W L L X 
+Locally irrelevant round 8: W L W W L W L L X 
+Locally irrelevant round 8: L W W W L W L L X 
+Locally irrelevant round 8: W W W W L W L L X 
+Locally irrelevant round 8: L L L L W W L L X 
+Locally irrelevant round 8: W L L L W W L L X 
+Locally irrelevant round 8: L W L L W W L L X 
+Locally irrelevant round 8: W W L L W W L L X 
+Locally irrelevant round 8: L L W L W W L L X 
+Locally irrelevant round 8: W L W L W W L L X 
+Locally irrelevant round 8: L W W L W W L L X 
+Locally irrelevant round 8: W W W L W W L L X 
+Locally irrelevant round 8: L L L W W W L L X 
+Locally irrelevant round 8: W L L W W W L L X 
+Locally irrelevant round 8: L W L W W W L L X 
+Locally irrelevant round 8: W W L W W W L L X 
+Locally irrelevant round 8: L L W W W W L L X 
+Locally irrelevant round 8: W L W W W W L L X 
+Locally irrelevant round 8: L W W W W W L L X 
+Locally irrelevant round 8: W W W W W W L L X 
+Locally irrelevant round 8: L L L L L L W L X 
+Locally irrelevant round 8: W L L L L L W L X 
+Locally irrelevant round 8: L W L L L L W L X 
+Locally irrelevant round 8: W W L L L L W L X 
+Locally irrelevant round 8: L L W L L L W L X 
+Locally irrelevant round 8: W L W L L L W L X 
+Locally irrelevant round 8: L W W L L L W L X 
+Locally irrelevant round 8: W W W L L L W L X 
+Locally irrelevant round 8: L L L W L L W L X 
+Locally irrelevant round 8: W L L W L L W L X 
+Locally irrelevant round 8: L W L W L L W L X 
+Locally irrelevant round 8: W W L W L L W L X 
+Locally irrelevant round 8: L L W W L L W L X 
+Locally irrelevant round 8: W L W W L L W L X 
+Locally irrelevant round 8: L W W W L L W L X 
+Locally irrelevant round 8: W W W W L L W L X 
+Locally irrelevant round 8: L L L L W L W L X 
+Locally irrelevant round 8: W L L L W L W L X 
+Locally irrelevant round 8: L W L L W L W L X 
+Locally irrelevant round 8: W W L L W L W L X 
+Locally irrelevant round 8: L L W L W L W L X 
+Locally irrelevant round 8: W L W L W L W L X 
+Locally irrelevant round 8: L W W L W L W L X 
+Locally irrelevant round 8: W W W L W L W L X 
+Locally irrelevant round 8: L L L W W L W L X 
+Locally irrelevant round 8: W L L W W L W L X 
+Locally irrelevant round 8: L W L W W L W L X 
+Locally irrelevant round 8: W W L W W L W L X 
+Locally irrelevant round 8: L L W W W L W L X 
+Locally irrelevant round 8: W L W W W L W L X 
+Locally irrelevant round 8: L W W W W L W L X 
+Locally irrelevant round 8: W W W W W L W L X 
+Locally irrelevant round 8: L L L L L W W L X 
+Locally irrelevant round 8: W L L L L W W L X 
+Locally irrelevant round 8: L W L L L W W L X 
+Locally irrelevant round 8: W W L L L W W L X 
+Locally irrelevant round 8: L L W L L W W L X 
+Locally irrelevant round 8: W L W L L W W L X 
+Locally irrelevant round 8: L W W L L W W L X 
+Locally irrelevant round 8: W W W L L W W L X 
+Locally irrelevant round 8: L L L W L W W L X 
+Locally irrelevant round 8: W L L W L W W L X 
+Locally irrelevant round 8: L W L W L W W L X 
+Locally irrelevant round 8: W W L W L W W L X 
+Locally irrelevant round 8: L L W W L W W L X 
+Locally irrelevant round 8: W L W W L W W L X 
+Locally irrelevant round 8: L W W W L W W L X 
+Locally irrelevant round 8: W W W W L W W L X 
+Locally irrelevant round 8: L L L L W W W L X 
+Locally irrelevant round 8: W L L L W W W L X 
+Locally irrelevant round 8: L W L L W W W L X 
+Locally irrelevant round 8: W W L L W W W L X 
+Locally irrelevant round 8: L L W L W W W L X 
+Locally irrelevant round 8: W L W L W W W L X 
+Locally irrelevant round 8: L W W L W W W L X 
+Locally irrelevant round 8: W W W L W W W L X 
+Locally irrelevant round 8: L L L W W W W L X 
+Locally irrelevant round 8: W L L W W W W L X 
+Locally irrelevant round 8: L W L W W W W L X 
+Locally irrelevant round 8: W W L W W W W L X 
+Locally irrelevant round 8: L L W W W W W L X 
+Locally irrelevant round 8: W L W W W W W L X 
+Locally irrelevant round 8: L W W W W W W L X 
+Locally irrelevant round 8: W W W W W W W L X 
+Locally irrelevant round 8: L L L L L L L W X 
+Locally irrelevant round 8: W L L L L L L W X 
+Locally irrelevant round 8: L W L L L L L W X 
+Locally irrelevant round 8: W W L L L L L W X 
+Locally irrelevant round 8: L L W L L L L W X 
+Locally irrelevant round 8: W L W L L L L W X 
+Locally irrelevant round 8: L W W L L L L W X 
+Locally irrelevant round 8: W W W L L L L W X 
+Locally irrelevant round 8: L L L W L L L W X 
+Locally irrelevant round 8: W L L W L L L W X 
+Locally irrelevant round 8: L W L W L L L W X 
+Locally irrelevant round 8: W W L W L L L W X 
+Locally irrelevant round 8: L L W W L L L W X 
+Locally irrelevant round 8: W L W W L L L W X 
+Locally irrelevant round 8: L W W W L L L W X 
+Locally irrelevant round 8: W W W W L L L W X 
+Locally irrelevant round 8: L L L L W L L W X 
+Locally irrelevant round 8: W L L L W L L W X 
+Locally irrelevant round 8: L W L L W L L W X 
+Locally irrelevant round 8: W W L L W L L W X 
+Locally irrelevant round 8: L L W L W L L W X 
+Locally irrelevant round 8: W L W L W L L W X 
+Locally irrelevant round 8: L W W L W L L W X 
+Locally irrelevant round 8: W W W L W L L W X 
+Locally irrelevant round 8: L L L W W L L W X 
+Locally irrelevant round 8: W L L W W L L W X 
+Locally irrelevant round 8: L W L W W L L W X 
+Locally irrelevant round 8: W W L W W L L W X 
+Locally irrelevant round 8: L L W W W L L W X 
+Locally irrelevant round 8: W L W W W L L W X 
+Locally irrelevant round 8: L W W W W L L W X 
+Locally irrelevant round 8: W W W W W L L W X 
+Locally irrelevant round 8: L L L L L W L W X 
+Locally irrelevant round 8: W L L L L W L W X 
+Locally irrelevant round 8: L W L L L W L W X 
+Locally irrelevant round 8: W W L L L W L W X 
+Locally irrelevant round 8: L L W L L W L W X 
+Locally irrelevant round 8: W L W L L W L W X 
+Locally irrelevant round 8: L W W L L W L W X 
+Locally irrelevant round 8: W W W L L W L W X 
+Locally irrelevant round 8: L L L W L W L W X 
+Locally irrelevant round 8: W L L W L W L W X 
+Locally irrelevant round 8: L W L W L W L W X 
+Locally irrelevant round 8: W W L W L W L W X 
+Locally irrelevant round 8: L L W W L W L W X 
+Locally irrelevant round 8: W L W W L W L W X 
+Locally irrelevant round 8: L W W W L W L W X 
+Locally irrelevant round 8: W W W W L W L W X 
+Locally irrelevant round 8: L L L L W W L W X 
+Locally irrelevant round 8: W L L L W W L W X 
+Locally irrelevant round 8: L W L L W W L W X 
+Locally irrelevant round 8: W W L L W W L W X 
+Locally irrelevant round 8: L L W L W W L W X 
+Locally irrelevant round 8: W L W L W W L W X 
+Locally irrelevant round 8: L W W L W W L W X 
+Locally irrelevant round 8: W W W L W W L W X 
+Locally irrelevant round 8: L L L W W W L W X 
+Locally irrelevant round 8: W L L W W W L W X 
+Locally irrelevant round 8: L W L W W W L W X 
+Locally irrelevant round 8: W W L W W W L W X 
+Locally irrelevant round 8: L L W W W W L W X 
+Locally irrelevant round 8: W L W W W W L W X 
+Locally irrelevant round 8: L W W W W W L W X 
+Locally irrelevant round 8: W W W W W W L W X 
+Locally irrelevant round 8: L L L L L L W W X 
+Locally irrelevant round 8: W L L L L L W W X 
+Locally irrelevant round 8: L W L L L L W W X 
+Locally irrelevant round 8: W W L L L L W W X 
+Locally irrelevant round 8: L L W L L L W W X 
+Locally irrelevant round 8: W L W L L L W W X 
+Locally irrelevant round 8: L W W L L L W W X 
+Locally irrelevant round 8: W W W L L L W W X 
+Locally irrelevant round 8: L L L W L L W W X 
+Locally irrelevant round 8: W L L W L L W W X 
+Locally irrelevant round 8: L W L W L L W W X 
+Locally irrelevant round 8: W W L W L L W W X 
+Locally irrelevant round 8: L L W W L L W W X 
+Locally irrelevant round 8: W L W W L L W W X 
+Locally irrelevant round 8: L W W W L L W W X 
+Locally irrelevant round 8: W W W W L L W W X 
+Locally irrelevant round 8: L L L L W L W W X 
+Locally irrelevant round 8: W L L L W L W W X 
+Locally irrelevant round 8: L W L L W L W W X 
+Locally irrelevant round 8: W W L L W L W W X 
+Locally irrelevant round 8: L L W L W L W W X 
+Locally irrelevant round 8: W L W L W L W W X 
+Locally irrelevant round 8: L W W L W L W W X 
+Locally irrelevant round 8: W W W L W L W W X 
+Locally irrelevant round 8: L L L W W L W W X 
+Locally irrelevant round 8: W L L W W L W W X 
+Locally irrelevant round 8: L W L W W L W W X 
+Locally irrelevant round 8: W W L W W L W W X 
+Locally irrelevant round 8: L L W W W L W W X 
+Locally irrelevant round 8: W L W W W L W W X 
+Locally irrelevant round 8: L W W W W L W W X 
+Locally irrelevant round 8: W W W W W L W W X 
+Locally irrelevant round 8: L L L L L W W W X 
+Locally irrelevant round 8: W L L L L W W W X 
+Locally irrelevant round 8: L W L L L W W W X 
+Locally irrelevant round 8: W W L L L W W W X 
+Locally irrelevant round 8: L L W L L W W W X 
+Locally irrelevant round 8: W L W L L W W W X 
+Locally irrelevant round 8: L W W L L W W W X 
+Locally irrelevant round 8: W W W L L W W W X 
+Locally irrelevant round 8: L L L W L W W W X 
+Locally irrelevant round 8: W L L W L W W W X 
+Locally irrelevant round 8: L W L W L W W W X 
+Locally irrelevant round 8: W W L W L W W W X 
+Locally irrelevant round 8: L L W W L W W W X 
+Locally irrelevant round 8: W L W W L W W W X 
+Locally irrelevant round 8: L W W W L W W W X 
+Locally irrelevant round 8: W W W W L W W W X 
+Locally irrelevant round 8: L L L L W W W W X 
+Locally irrelevant round 8: W L L L W W W W X 
+Locally irrelevant round 8: L W L L W W W W X 
+Locally irrelevant round 8: W W L L W W W W X 
+Locally irrelevant round 8: L L W L W W W W X 
+Locally irrelevant round 8: W L W L W W W W X 
+Locally irrelevant round 8: L W W L W W W W X 
+Locally irrelevant round 8: W W W L W W W W X 
+Locally irrelevant round 8: L L L W W W W W X 
+Locally irrelevant round 8: W L L W W W W W X 
+Locally irrelevant round 8: L W L W W W W W X 
+Locally irrelevant round 8: W W L W W W W W X 
+Locally irrelevant round 8: L L W W W W W W X 
+Locally irrelevant round 8: W L W W W W W W X 
+Locally irrelevant round 8: L W W W W W W W X 
+Locally irrelevant round 8: W W W W W W W W X 
+Globally irrelevant round 8: L L L L L L L L X 

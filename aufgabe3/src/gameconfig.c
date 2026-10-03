@@ -65,7 +65,7 @@ GameConfig gameconfig_load(const char* p_path) {
     assert(file != NULL, "aufgabe3: Failed to open '%s'!", p_path);
     u32 file_len = (u32) fread(buf, sizeof(char), 4096, file);
     if (file_len >= 4096) { panic("aufgabe3: Failed to read game config file, maximum of 4095 characters supported!"); }
-    if (file_len == 0 && ferror(file)) { ipanic("Failed to read game config file due to an internal error!"); }
+    if (file_len == 0 && ferror(file)) { ipanic("Failed to read game config file due to an internal error! (did you try to open a folder?)"); }
     buf[file_len] = '\0';
     fclose(file);
     u32 tokens_len;
@@ -96,7 +96,7 @@ GameConfig gameconfig_load(const char* p_path) {
     assert(remaining_points != NULL, "Failed to allocate memory!");
     u32 max_points = 0;
     for (u32 i = 0; i < rounds; i++) { max_points += points[i]; }
-    for (u32 i = 0; i < rounds; i++) { remaining_points[i] = max_points; max_points -= points[i]; }
+    for (u32 i = 0; i < rounds; i++) { max_points -= points[i]; remaining_points[i] = max_points; }
     return (GameConfig) {
         .rounds = rounds,
         .points = points,
