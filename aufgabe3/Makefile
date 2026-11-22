@@ -11,10 +11,12 @@ release: CFLAGS += $(RELEASE_FLAGS)
 release: bin/aufgabe3
 
 bin/aufgabe3: $(patsubst src/%.c,bin/%.o,$(wildcard src/*.c))
+	mkdir -p bin
 	clang $(CFLAGS) $^ -o $@ -lm
 
 bin/%.o: src/%.c
+	mkdir -p bin
 	clang $(CFLAGS) -c $< -I include -o $@
 
 clean:
-	rm -rf bin/*
+	rm -rf bin
