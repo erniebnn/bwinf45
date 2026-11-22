@@ -5,7 +5,7 @@
 #include "panic.h"
 
 bool game_determined(GameConfig* p_cfg, bool* p_game, u32 p_rnd) {
-    if (p_rnd == 0) { return (p_cfg->target == 0) || (p_cfg->remaining_points[0] + p_cfg->points[0] == 0) ; }
+    if (p_rnd == 0) { return (p_cfg->target == 0) || (p_cfg->remaining_points[0] + p_cfg->points[0] == 0); }
     u32 cur_points = 0;
     for (u32 i = 0; i < p_rnd; i++) {
         cur_points += p_game[i] ? p_cfg->points[i] : 0;
