@@ -1,0 +1,17 @@
+stbi:
+  type: misc
+  title: "stb_image.h"
+  url:
+    value: "https://github.com/nothings/stb/blob/master/stb_image.h"
+
+stbi_write:
+  type: misc
+  title: "stb_image_write.h"
+  url:
+    value: "https://github.com/nothings/stb/blob/master/stb_image_write.h"
+
+stbi_resize2:
+  type: misc
+  title: "stb_image_resize2.h"
+  url:
+    value: "https://github.com/nothings/stb/blob/master/stb_image_resize2.h"

@@ -316,7 +316,7 @@ static void transition_state(Game* p_game) {
     }
     else if (p_game->status_cur == GMSTAT_COORD) {
         p_game->status_cur = GMSTAT_EXEC;
-        int in_dir = randint(1, 6), off_dir = debug ? 0 : randint(0, 3) - 1;
+        int in_dir = randint(0, 6), off_dir = debug ? 0 : randint(0, 3) - 1;
         Direction dir_cur = p_game->direction_cur;
         if (dir_cur == DIR_UP || dir_cur == DIR_DOWN) {
             p_game->hit_x = p_game->shoot_x + off_dir;
@@ -359,7 +359,7 @@ static void update(Game* p_game) {
             }
             else {
                 p_game->player_cur = (p_game->player_cur == PLAYER_ONE) ? PLAYER_TWO : PLAYER_ONE;
-                p_game->round++;
+                p_game->round += (p_game->player_cur == PLAYER_ONE) ? 1 : 0;
                 if (p_game->round == p_game->rounds) {
                     int target_x = p_game->target_x, target_y = p_game->target_y;
                     BallKind left  = is_off_board(target_x - 1, target_y    ) ? BALL_NONE : p_game->board[target_y    ][target_x - 1];

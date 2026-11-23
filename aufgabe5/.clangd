@@ -1,9 +1,0 @@
-CompileFlags:
-  Add:
-    - -xc
-    - -I../include
-    - -Wall
-    - -Wextra
-    - -Wpedantic
-    - -Wconversion
-    - -std=c23

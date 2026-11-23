@@ -1,6 +1,5 @@
 #import "template.typ": conf
 
-
 #show: conf.with(
   title: "45. Bundeswettbewerb Informatik, Aufgabe 2",
   team-id: "00291",
@@ -88,7 +87,7 @@ $
 - Build System: GNU Make 4.4.1
 - Version Control: Git 2.55.0
 - Verwendete Libraries:
-  - GLibC (C Standartbibliothek)
+  - glibc (C Standartbibliothek)
   - STB Image @stbi
   - STB Image Write @stbi_write
   - STB Image Resize2 @stbi_resize2
@@ -245,4 +244,4 @@ Zehn ähnlichste Flaggenpaare:
 = Hinweise
 Programm entwickelt und getestet ausschließlich auf Arch Linux 7.2.6 mit den angegebenen Werkzeugen und Versionen in @werkzeuge.
 
-#bibliography("bib.yaml", style: "ieee", title: "7 Bibliographie")
+#bibliography("bib.yaml", style: "ieee", title: "7. Bibliographie")
